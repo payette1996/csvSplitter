@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>split.ico</ApplicationIcon>
+    <Title>csvSplitter</Title>
+    <Company>Mesotec</Company>
+    <Authors>Louis Payette</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="split.ico" />
+  </ItemGroup>
+
+</Project>
